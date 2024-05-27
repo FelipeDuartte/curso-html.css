@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/* 
+tudo que for 'id' em html em css e = '#' */
+/* tudo que for 'class' em html em css e = '.' 
+*/
+
+body {
+    background-color: #29382E;
+    font-family: sans-serif;
+}
+h1#principal{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+h1 {
+    text-align: center;
+    color: #577553;
+}
+h2 {
+    color: #46863e;
+}
+p{
+    text-align: justify;
+    color: white;
+}
+.basico{
+color: #11991caf;
+}
+.intermediario{
+color: #baeb099f;
+}
+.avancado{
+color: #0752b398;
+}
+.destaque{
+    background-color: #46863e38;
+}

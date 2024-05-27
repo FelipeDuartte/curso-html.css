@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body{
+background-color: gray;
+}
+main{
+background-color: white;
+padding: 20px;
+border-radius: 10px;
+margin: auto;
+max-width: 800px;
+min-width: 320px;
+}
+img{
+margin: 0px;
+width: 300px;
+}

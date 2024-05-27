@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trabalhando com links</title>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+            background-color: rgba(165, 42, 42, 0.116);
+        }
+        a:hover{
+            text-decoration: underline;
+            color: blue;
+        }
+        a:active{
+            background-color: rgba(165, 42, 42, 0.637);
+        }
+        .principal::after{
+            content: '👈';
+        }
+        .principal::before{
+            content: '👉';
+        }
+    </style>
+</head>
+<body>
+    <h1>personalizando links!</h1>
+<ul>
+    <li><a href="https://www.youtube.com/" class="principal">videos do youtube</a></li>
+    <li><a href="https://www.youtube.com/channel/UC73ISdGx1B45XbKJ8cYIM9Q">canal do youtube</a></li>
+    <li><a href="https://www.twitch.tv/">acessar twitch</a></li>
+</ul>
+</body>
+</html>
